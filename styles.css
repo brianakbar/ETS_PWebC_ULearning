@@ -194,14 +194,19 @@ a:hover {
     width: 190px;
 }
 
+.multiple-carousel .carousel-inner {
+    display: flex;
+}
+
+.multiple-carousel .carousel-item {
+    margin-right: 0;
+    flex: 0 0 100%;
+    display: block;
+}
+
 @media (min-width: 768px) {
-    .multiple-carousel .carousel-inner {
-      display: flex;
-    }
     .multiple-carousel .carousel-item {
-      margin-right: 0;
       flex: 0 0 50%;
-      display: block;
     }
 }
 

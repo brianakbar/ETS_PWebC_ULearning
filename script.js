@@ -76,11 +76,17 @@ $(document).ready(function() {
         var carouselWidth = $(this).closest('.multiple-carousel').children('.carousel-inner')[0].scrollWidth;
         var itemWidth = $(this).closest('.multiple-carousel').children('.carousel-inner').children('.carousel-item').width();
         var scrollPosition = parseFloat($(this).closest('.multiple-carousel').children('.scroll-position').text());
-        if (scrollPosition < (carouselWidth - itemWidth * 4)) { //check if you can go any further
-            //alert(scrollPosition);
+
+        var windowWidth = $(window).width();
+        var itemInCourseSlider;
+        if(windowWidth >= 1250) { itemInCourseSlider = 4; }
+        else if(windowWidth >= 1020) { itemInCourseSlider = 3; }
+        else if(windowWidth >= 768) { itemInCourseSlider = 2; }
+        else { itemInCourseSlider = 1; }
+
+        if (scrollPosition < (carouselWidth - itemWidth * itemInCourseSlider)) { //check if you can go any further
             scrollPosition += itemWidth;  //update scroll position
             $(this).closest('.multiple-carousel').children('.scroll-position').text(scrollPosition);
-            //document.getElementById('test').scrollLeft += 20;
             $(this).closest('.multiple-carousel').children('.carousel-inner').animate({ scrollLeft: scrollPosition },600); //scroll left
         }
     });
@@ -90,7 +96,6 @@ $(document).ready(function() {
         var itemWidth = $(this).closest('.multiple-carousel').children('.carousel-inner').children('.carousel-item').width();
         var scrollPosition = parseFloat($(this).closest('.multiple-carousel').children('.scroll-position').text());
         if (scrollPosition > 0) {
-            //alert(scrollPosition);
             scrollPosition -= itemWidth;
             $(this).closest('.multiple-carousel').children('.scroll-position').text(scrollPosition);
             $(this).closest('.multiple-carousel').children('.carousel-inner').animate(
