@@ -5,183 +5,183 @@
             "author": "Fred. Jx, Lewing",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-1.png"
+            "image_url": "Image/Course/Design/Desain-1.png"
         },
         "2" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Desain Itu Menyenangkan",
+            "author": "Kuncha, Del Ma",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-2.png"
+            "image_url": "Image/Course/Design/Desain-2.png"
         },
         "3" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Illustrator dan Photoshop Bisa Semua",
+            "author": "Verah, Alca",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-3.png"
+            "image_url": "Image/Course/Design/Desain-3.png"
         },
         "4" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Konsep Desain Untuk Semua",
+            "author": "Kurena, Virco",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Design/Desain-4.png"
         }, 
         "5" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Konsep Desain Untuk Semua",
+            "author": "Kurena, Virco",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Design/Desain-4.png"
         }
     },
-    "cinematografi" : {
+    "cinematography" : {
         "1" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "After Effect Motion Graphics",
+            "author": "Will Mad, Franco",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-1.png"
+            "image_url": "Image/Course/Cinematography/Cinematografi-1.png"
         },
         "2" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Premierre Greenscreen Application",
+            "author": "Aurora, Leo",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-2.png"
+            "image_url": "Image/Course/Cinematography/Cinematografi-2.png"
         },
         "3" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Mengkombinasikan AE dan PR",
+            "author": "Miya, Krissen",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-3.png"
+            "image_url": "Image/Course/Cinematography/Cinematografi-3.png"
         },
         "4" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Pemilihan CutScene Jedug-Jedug",
+            "author": "Parjo, Adam",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Cinematography/Cinematografi-4.png"
         }, 
         "5" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Pemilihan CutScene Jedug-Jedug",
+            "author": "Parjo, Adam",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Cinematography/Cinematografi-4.png"
         }
     },
     "frontend" : {
         "1" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Mendesain UI/UX Dengan HTML",
+            "author": "Frans, De Vara",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-1.png"
+            "image_url": "Image/Course/FrontEnd/FrontEnd-1.png"
         },
         "2" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Ngoding Front-End Menyenangkan",
+            "author": "DeoDra, Sia",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-2.png"
+            "image_url": "Image/Course/FrontEnd/FrontEnd-2.png"
         },
         "3" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "HTML, CSS Intermediate Level",
+            "author": "Kejora, Atla",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-3.png"
+            "image_url": "Image/Course/FrontEnd/FrontEnd-3.png"
         },
         "4" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Belajar Fisika Quantum Untuk HTML",
+            "author": "Morris, Julliet",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/FrontEnd/FrontEnd-4.png"
         }, 
         "5" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Belajar Fisika Quantum Untuk HTML",
+            "author": "Morris, Julliet",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/FrontEnd/FrontEnd-4.png"
         }
     },
     "backend" : {
         "1" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Python Membuat Ngantuk ? SALAH",
+            "author": "Jacob, Tred",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-1.png"
+            "image_url": "Image/Course/BackEnd/BackEnd-1.png"
         },
         "2" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Database Dengan PostGrees",
+            "author": "Ahmad, Laka",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-2.png"
+            "image_url": "Image/Course/BackEnd/BackEnd-2.png"
         },
         "3" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "C# Bukan Hanya Tajam Tapi EZ",
+            "author": "Pierro, Arma",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-3.png"
+            "image_url": "Image/Course/BackEnd/BackEnd-3.png"
         },
         "4" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Dataset Untuk Aplikasi Python",
+            "author": "Diara, Breffi",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/BackEnd/BackEnd-4.png"
         }, 
         "5" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Dataset Untuk Aplikasi Python",
+            "author": "Diara, Breffi",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/BackEnd/BackEnd-4.png"
         }
     },
     "productivity" : {
         "1" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Excel Itu Tidak Susah Lho Kawan Kawan",
+            "author": "Jason, Chamber",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-1.png"
+            "image_url": "Image/Course/Productivity/Produktivitas-1.png"
         },
         "2" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Word Untuk Extreme Mode",
+            "author": "Kevin, Astra",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-2.png"
+            "image_url": "Image/Course/Productivity/Produktivitas-2.png"
         },
         "3" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Cara Mudah Mengasah Skill Di Rumah",
+            "author": "Ted, Jony",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-3.png"
+            "image_url": "Image/Course/Productivity/Produktivitas-3.png"
         },
         "4" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Belajar Fisika Biar Jago Ngoding",
+            "author": "Albert, Ap",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Productivity/Produktivitas-4.png"
         }, 
         "5" : {
-            "title": "Belajar Desain untuk Freelance",
-            "author": "Fred. Jx, Lewing",
+            "title": "Belajar Fisika Biar Jago Ngoding",
+            "author": "Albert, Ap",
             "rating_url": "Image/Course/Star_4_5.svg",
             "rating_number": "3210",
-            "image_url": "Image/Course/Desain-4.png"
+            "image_url": "Image/Course/Productivity/Produktivitas-4.png"
         }
     }
 }
