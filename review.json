@@ -1,0 +1,16 @@
+{
+    "1" : {
+        "name": "Cristtopher Manfred",
+        "quote": "Belajar di ULearn-Ing selain menyenangkan tapi juga dapat mengasah skill, tak hanya itu pengajarnya juga baik baik dan sabar. Selain harga nya murah materinya juga tidak kalah lengkap dengan yang lain.",
+        "job": "Designer - Tokopedia",
+        "course": "Desain",
+        "image_url": "Image/Review/Image_1.png"
+    },
+    "2" : {
+        "name": "Linda Lin",
+        "quote": "Belajar di ULearn-Ing selain menyenangkan tapi juga dapat mengasah skill, tak hanya itu pengajarnya juga baik baik dan sabar. Selain harga nya murah materinya juga tidak kalah lengkap dengan yang lain.",
+        "job": "Lead Programmer - Gojek",
+        "course": "Programming",
+        "image_url": "Image/Review/Image_2.png"
+    }
+}
