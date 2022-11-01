@@ -183,6 +183,17 @@ a:hover {
     color: var(--bs-gray-700)
 }
 
+.rating-number {
+    font-size: 12px;
+    margin: 0;
+    margin-left: -15px;
+    margin-bottom: -4px;
+}
+
+.rating-detail {
+    width: 190px;
+}
+
 @media (min-width: 768px) {
     .multiple-carousel .carousel-inner {
       display: flex;

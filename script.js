@@ -64,7 +64,10 @@ $(document).ready(function() {
                 $(descDiv).append('<h5 class="mb-0"><span class="font-semibold">' + val[ranObject].title + '</span></h5>');
                 $(descDiv).append('<p class="mb-1 mt-0">' + val[ranObject].author + '</p>');
 
-                $(itemDiv).append('<img class="img-fluid" src="' + val[ranObject].rating_url + '">');
+                var ratingDiv = $('<div class="rating-detail row align-items-end justify-content-start"></div>');
+                $(itemDiv).append(ratingDiv);
+                $(ratingDiv).append('<img class="img-fluid col" src="' + val[ranObject].rating_url + '">');
+                $(ratingDiv).append('<p class="rating-number col">(' + val[ranObject].rating_number + ')</p>');
             }
         });
     });
