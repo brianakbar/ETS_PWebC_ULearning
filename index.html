@@ -10,6 +10,37 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body align-center relative">
+            <h4 class="modal-title font-extrabold" id="exampleModalLongTitle">Login ke akun ULearning</h4>
+            <hr>
+            <button type="button" class="close" onclick="$('#loginModal').modal('toggle')" data-dismiss="modal" aria-label="Close">
+              <img class="img-fluid" src="Image/Close.svg" alt="Close Logo">
+              <span aria-hidden="true"></span>
+            </button>
+            <div class="col-9 mx-auto">
+              <button type="button" class="text-align-left button-nav-item relative border border-rounded-sm px-5 py-2 full-width mb-3"><div class="login-img"><img class="img-fluid" src="Image/flat-color-icons_google.svg" alt="Google Logo"></div>Lanjutkan dengan Google</button>
+              <button type="button" class="text-align-left button-nav-item relative border border-rounded-sm px-5 py-2 full-width mb-3"><div class="login-img"><img class="img-fluid" src="Image/akar-icons_facebook-fill.svg" alt="Facebook Logo"></div>Lanjutkan dengan Facebook</button>
+              <div class="relative full-width mb-3">
+                <label for="email_login_input" class="login-img"><img class="img-fluid" src="Image/carbon_email.svg" alt="Search Logo"></label>
+                <input class="border border-rounded-sm full-width ps-5 pe-3 py-2" id="email_login_input" placeholder="Email">
+              </div>
+              <div class="relative full-width mb-3">
+                <label for="password_login_input" class="login-img"><img class="img-fluid" src="Image/arcticons_password.svg" alt="Search Logo"></label>
+                <input type="password" class="border border-rounded-sm full-width ps-5 pe-3 py-2" id="password_login_input" placeholder="Password">
+              </div>
+              <button type="button" class="btn btn-primary bg-light-blue border-rounded-sm border-light-blue full-width mb-3">Login</button>
+              <div>
+                <p class="inline-block">atau</p>
+                <a class="link-blue" href="#">Lupa Password</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg bg-white shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="Image/Logo.svg" alt="Logo"></a>
@@ -19,7 +50,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <form class="me-auto relative input-lg mt-3 mb-3 mt-lg-0 mb-lg-0" role="search">
                 <label for="search_input" class="search-img"><img src="Image/Search.svg" alt="Search Logo"></label>
-                <input class="form-control" id="search_input" type="search" placeholder="Pelajaran apa yang ingin anda cari ?" aria-label="Search">
+                <input class="form-control text-indent" id="search_input" type="search" placeholder="Pelajaran apa yang ingin anda cari ?" aria-label="Search">
             </form>
             <ul class="d-lg-flex flex-navbar-items-lg navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item button-nav-item border border-rounded-sm px-2 px-lg-0">
@@ -34,7 +65,7 @@
             </ul>
             <ul class="d-lg-flex flex-navbar-items-lg navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item button-nav-item border border-rounded-sm px-2 px-lg-0">
-                    <a class="nav-link text-black font-semibold" href="#">Masuk</a>
+                    <a class="nav-link text-black font-semibold" onclick="$('#loginModal').modal('toggle')" href="#">Masuk</a>
                   </li>
                 <li class="nav-item border border-light-blue bg-light-blue border-rounded-sm px-2 px-lg-0">
                     <a class="nav-link text-white font-semibold" href="#">Daftar</a>

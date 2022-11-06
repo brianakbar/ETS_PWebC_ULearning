@@ -20,12 +20,20 @@ a:hover {
     color: #231f20cc;
 }
 
-.button-nav-item {
+.link-blue {
+    color: var(--light-blue);
+}
+
+.link-blue:hover {
+    color: var(--light-blue-hover);
+}
+
+.button-nav-item{
     background-color: white;
     transition: 0.2s;
 }
 
-.button-nav-item:hover {
+.button-nav-item:hover{
     background-color: rgb(247, 247, 247);
 }
 
@@ -45,6 +53,10 @@ a:hover {
 
 .border-light-blue:hover {
     border-color: var(--light-blue-hover) !important;
+}
+
+.text-align-left {
+    text-align: left;
 }
 
 .align-right {
@@ -90,18 +102,46 @@ a:hover {
     padding-right: 40px;
 }
 
+.full-width {
+    display: block;
+    width: 100%;
+}
+
 .text-black {
     color: #231F20;
 }
 
-.form-control {
-    text-indent: 20px;
+.text-indent {
+    padding-left: 32px;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .search-img {
     position: absolute;
     top: 4px;
     left: 6px;
+}
+
+.login-img {
+    width: 28px;
+    height: 28px;
+
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.close {
+    background-color: transparent;
+    border: none;
+
+    position: absolute;
+    left: auto;
+    right: 6px;
+    top: 6px;
 }
 
 .shadow-image {
@@ -132,6 +172,10 @@ a:hover {
 
 .font-bold {
     font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
 }
 
 .review-carousel-control-prev {
